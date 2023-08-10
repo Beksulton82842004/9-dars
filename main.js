@@ -74,8 +74,8 @@ elCards.addEventListener("click", function(evt) {
     const id = Number(evt.target.dataset.id);
     console.log("edit-icon");
     console.log("test");
-    todos.innerHTML = `
- <div class="card-title"  ${"elInputName"} </div>
+    elCards.innerHTML = `
+      ${elInputName.value}
     `
    }
    renderTodos(todos, elCards);
